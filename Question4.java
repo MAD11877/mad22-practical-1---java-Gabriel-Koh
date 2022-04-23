@@ -18,6 +18,21 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
+    int a = in.nextInt();
+    String star = "*";
+    for(int i = a;
+    i >0;
+    i--) {
+      String temp = "";
+      int tempnum = i;
+      for(int x = tempnum;
+      x>0;
+      x--){
+        temp+=star;
+      }
+      System.out.println(temp);
+    }
+    in.close();
     
   }
 }

@@ -11,6 +11,9 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
+    int ip = in.nextInt();
+    in.close();
+    System.out.println(ip*ip);
     
   }
 }
